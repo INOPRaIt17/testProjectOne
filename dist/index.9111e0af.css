@@ -1,0 +1,100 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerNav {
+  align-items: center;
+  height: 204px;
+  display: grid;
+}
+
+.containerNav .panelContainer {
+  height: 66px;
+  margin-left: 169px;
+  margin-right: 169px;
+  display: flex;
+}
+
+.containerNav .panelContainer .logoItem {
+  align-items: center;
+  display: flex;
+}
+
+.containerNav .panelContainer .logoItem .logoNavbar {
+  flex-shrink: 0;
+  width: 36.582px;
+  height: 53.716px;
+}
+
+.containerNav .panelContainer .logoItem .logoNamed {
+  color: #274c5b;
+  margin-left: 8.21px;
+  font-family: Roboto, sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.containerNav .panelContainer .linkItemCont {
+  height: 66px;
+}
+
+.containerNav .panelContainer .linkItem {
+  justify-content: space-between;
+  align-items: center;
+  width: 564px;
+  height: 66px;
+  margin-left: 150px;
+  display: flex;
+}
+
+.containerNav .panelContainer .linkItem .linkStyle {
+  text-decoration: none;
+}
+
+.containerNav .panelContainer .linkItem .linkStyle .linkText {
+  color: #274c5b;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.containerNav .panelContainer .additionalItem {
+  margin-left: 130px;
+}
+
+.containerNav .panelContainer .additionalItem .searchInput {
+  background: url("Search.eef9010a.png") right 6px center no-repeat;
+  border: none;
+  border-radius: 36px;
+  outline: none;
+  width: 376px;
+  height: 66px;
+  padding-left: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.containerNav .panelContainer .cartItem {
+  background: url("Cart.1ab2cb7e.png") 6px 50% no-repeat;
+  border: 1px solid #e0e0e0;
+  border-radius: 33px;
+  width: 159px;
+  margin-left: 18px;
+}
+
+.containerNav .panelContainer .cartText {
+  color: #274c5b;
+  margin-top: 21px;
+  margin-left: 74px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=index.9111e0af.css.map */

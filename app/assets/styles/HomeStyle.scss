@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&family=Yellowtail&display=swap');
+
+$bcgOne: #F1F8F4;
+
+.containerHome {
+  .firstItem {
+    height: 898px;
+    background-image: url("../image/Backround/Banner.jpg");
+
+    .naturalFoodText {
+      font-family: 'Yellowtail', cursive;
+      color: #68A47F;
+      font-size: 36px;
+      font-weight: 400;
+      padding-top: 247px;
+      margin-left: 260px;
+    }
+
+    .bestText {
+      width: 530px;
+      color: #274C5B;
+      font-family: Roboto;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-left: 260px;
+    }
+
+    .btnExplore {
+      display: flex;
+      width: 220px;
+      height: 79px;
+      color: #274C5B;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border-radius: 16px;
+      background: #EFD372;
+      padding: 28px 39px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border: none;
+      margin-left: 260px;
+      margin-top: 23px;
+    }
+  }
+
+  .secondItem {
+    height: 711px;
+    background-color: $bcgOne;
+    display: flex;
+
+    .photoOneBlock {
+      background-image: url('../image/Backround/PhotoOne.jpg');
+      width: 682px;
+      height: 367px;
+      margin-top: 154px;
+      border-radius: 16px;
+      margin-left: 260px;
+
+      .textNatural {
+        color: #FFF;
+        font-family: "Yellowtail";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 54.88px;
+        margin-top: 109px;
+      }
+
+      .textDescriptionBLockPhoto {
+        width: 277.633px;
+        color: #FFF;
+        font-family: "Roboto";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 54.88px;
+      }
+    }
+
+    .photoTwoBlock {
+      margin-left: 18px;
+      background-image: url('../image/Backround/PhotoTwo.jpg');
+      width: 682px;
+      height: 367px;
+      margin-top: 154px;
+      border-radius: 16px;
+
+      .otterText {
+        color: #7EB693;
+        font-family: "Yellowtail";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 54.88px;
+        margin-top: 109px;
+      }
+
+      .getProccent {
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 54.88px;
+        width: 277.633px;
+      }
+    }
+  }
+
+  .thirdItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1067px;
+
+    .blockOne {
+
+      .photoFlower {
+        width: 911px;
+        height: 867px;
+        margin-left: 100px;
+      }
+    }
+
+    .blockTwo {
+
+      .aboutText {
+        color: #7EB693;
+        font-family: "Yellowtail";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 186px;
+      }
+
+      .weText {
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        width: 702px;
+        margin-top: 8px;
+      }
+
+      .simplyText {
+        width: 690px;
+        color: #525C60;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%;
+        margin-top: 8px;
+      }
+
+      .bowlBlock {
+        display: flex;
+        margin-top: 46px;
+
+        .bowlImageBlock {
+          width: 101px;
+          height: 101px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 20px;
+          background-color: #FAFAFA;
+
+
+          .bowlImg {}
+        }
+
+        .textsBowl {
+          margin-left: 19px;
+
+          .organickText {
+            color: #274C5B;
+            font-family: "Roboto";
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+          }
+
+          .textSimple {
+            width: 444px;
+            color: #525C60;
+            font-family: "Open Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 165.4%;
+          }
+        }
+      }
+
+      .btnShow {
+        display: flex;
+        width: 220px;
+        height: 79px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 16px;
+        padding: 28px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        margin-top: 23px;
+        background: #274C5B;
+      }
+    }
+  }
+
+  .fourthItem {
+    height: 1719px;
+
+    .textCategories {
+      text-align: center;
+      color: #7EB693;
+      font-family: "Yellowtail";
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .ourProducts {
+      text-align: center;
+      color: #274C5B;
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+
+    .cardsOurProducts {
+      display: flex;
+      flex-direction: column;
+
+      .cardContainer {
+        width: 335px;
+        height: 483px;
+        border-radius: 30px;
+        background: #F9F8F8;
+
+        .blockVegetable {
+          border-radius: 8px;
+          background: #274C5B;
+          width: 96px;
+          height: 31px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 29px;
+          margin-left: 30px;
+
+          .vegetableText {
+            color: #FFF;
+            text-align: center;
+            font-family: "Open Sans";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+        }
+
+        .imageProduct {
+          margin-top: 30px;
+          width: 335px;
+          height: 324px;
+        }
+
+        .namedProduct {
+          color: #274C5B;
+          font-family: "Roboto";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-left: 30px;
+        }
+
+        .lineProduct {
+          width: 275px;
+          border: none;
+          height: 1px;
+          background-color: #DEDDDD;
+          margin-left: 30px;
+          margin-top: 13px;
+        }
+
+        .flexBlockProduct {
+          display: flex;
+
+          .textOldPrice {
+            text-decoration: line-through;
+            color: #B8B8B8;
+            font-family: "Open Sans";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-left: 31px;
+            margin-top: 2px;
+          }
+
+          .textNewPrice {
+            color: #274C5B;
+            text-align: center;
+            font-family: "Open Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}

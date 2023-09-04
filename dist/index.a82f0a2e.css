@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerNav {
+  align-items: center;
+  height: 204px;
+  display: grid;
+}
+
+.containerNav .panelContainer {
+  background-color: red;
+  height: 66px;
+  margin-left: 169px;
+  margin-right: 169px;
+}
+
+/*# sourceMappingURL=index.a82f0a2e.css.map */
